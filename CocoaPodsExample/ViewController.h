@@ -10,4 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIScrollView *showsScrollView;
+@property (strong, nonatomic) IBOutlet UIPageControl *showPageControl;
+
+- (IBAction)pageChanged:(id)sender;
+
 @end
